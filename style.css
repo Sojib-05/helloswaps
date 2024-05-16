@@ -1,0 +1,991 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
+}
+
+html,body{
+  overflow-x: hidden;
+  
+}
+
+
+
+
+/*  This is Header Section  */
+
+
+.head{
+  padding: 18px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0f0f0;
+ 
+}
+
+#hello{
+  font-size: 35px;
+  font-weight: 700;
+  height: bold;
+  cursor: pointer ;
+  
+}
+
+#hello:hover{
+    background-color: #ddd9d9;
+    padding: 10px;
+    border-radius: 25px;
+    color: #1c021f;
+
+}
+
+.link-section{
+  display: inline-block;
+  
+}
+
+.link-section  a{
+  text-decoration: none;
+  padding-left: 21px;
+  color: #000000;
+  font-size: 22px;
+}
+
+.link-section  a:hover{
+    background-color: #ddd9d9;
+    padding: 10px;
+    border-radius: 25px;
+    color: #1c021f;
+}
+
+
+.login{
+ display: flex;
+ gap: 15px;
+}
+
+
+.Logo{
+  cursor: pointer;
+}
+
+.png{
+  width: 40px;
+  height:40px;
+  cursor: pointer;
+}
+
+.png:hover{
+    padding: 3px;
+    background-color: #dbd6d6;
+    border-radius: 25px;
+}
+.login{
+  padding: 6px 15px;
+  cursor: pointer;
+}
+
+.button-section1{
+  border-radius: 25px;
+  border: none;
+  color: #000000;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+.button-section1:hover{
+    background-color: #ddd9d9;
+    padding: 10px;
+    border-radius: 25px;
+    color: #1c021f;
+   
+}
+.button-section2{
+  border-radius: 25px;
+  border: none;
+  color: #FFFF;
+  background-color: #000000;
+  font-size: 20px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.button-section2:hover{
+    background-color: #000000;
+    padding: 12px;
+    border-radius: 25px;
+    color: #f8e916;
+}
+
+
+
+
+/* This is Home Section  */
+
+
+
+
+
+.home-section{
+  background: url(Home.png);
+  width: 100%;
+  height: 760px;
+  color: #000000;
+  background-size: cover;  
+  position: relative;
+  background-repeat: no-repeat;
+}
+
+.find-offer{
+  position: absolute;
+  width: 1100px;
+  height: 320px;
+  background-color: #FFFF;
+  top: 0%;
+  border-radius: 10px;
+  opacity: 0px;
+  gap: 0px;
+  left: 0%;
+  right: 0%;
+  bottom: 0%;
+  border: 1px 0px 0px 0px;  
+  margin: auto;  
+ 
+}
+ #find{    
+    text-align: center;
+    font-size: 32px;
+    font-weight: 700;
+    padding: 10px;
+}
+
+
+.select-section{
+    width: 220px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 15px;
+    border-radius: 7px;   
+    background-color: #ECECEC;    
+    border: none;
+    outline: none;
+    cursor: pointer; 
+}
+
+.find-Box{
+    display: flex;
+    padding: 0px 108px;
+    gap: 26px;
+    margin-top: 55px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#buy{
+    font-size: 24px;
+    font-weight: 500;
+    text-align: center;
+    padding-right: 10px;
+    padding-left: 20px;
+  }
+
+  .im{
+    padding: 20px;
+  }
+
+
+
+.how-much{
+  display: flex;
+  justify-content: flex-start;
+  gap: 28px;
+  align-items: center;
+  margin-top: 30px;
+  margin-left: 9.5%;
+}
+
+  .how-much1{
+    width: 665px;
+      height: 50px;
+      border-radius: 8px;
+      font-size: 24px;
+      border: none;
+      font-weight: 550;
+      outline: none;
+      cursor: pointer;
+
+  }
+
+  .how-much2{
+      width: 200px;
+      height: 50px;
+      border-radius: 30px;
+      border: none;
+      font-size: 24px;
+      font-weight: 550;
+      background-color: #00EBC7;
+      outline: none;
+      cursor: pointer;
+  }
+
+
+.Zappr-section{
+  position: absolute;
+  border-radius: 30px;
+  border: 1.5px solid #FFFF;
+   padding: 11px 28px;
+  top: 631px;
+  left: 45%;
+  
+}
+
+#zappr{
+     text-decoration: underline;
+     color: #FFFF;
+     font-weight: 22px;
+     font-weight: 500;
+  }
+
+
+
+
+
+
+/* This is banner Section  */
+
+
+
+.Buy-Sell{
+  width: 100%;
+  height: 365px;
+  background-color: #FDE24F;
+  text-align: center;
+  border: none;
+}
+
+#favorites{
+      font-size: 30px;
+      font-weight: 400;
+      padding-top: 70px;
+
+  #span-selet{
+          font-style: italic;
+ }
+}
+      
+
+.banner1{
+  margin-top: 55px;
+}
+
+#banner1{
+      width: 90%;
+      height: 75%;
+}
+
+
+
+
+
+
+/* This is Features Section*/
+
+
+
+
+.Features{
+  width: 100%;
+  height: 690px;
+  color: #000000;
+  position: relative;
+  border-bottom: 1.6px solid #000000;
+  border-top: 1.5px solid #000000;
+}
+
+#we-thing{
+      margin-top: 20px;
+      margin-left: 80px;
+      font-size: 36px;
+      font-weight: 500;
+      text-align: center;
+}
+
+
+.Features-section{
+    margin: 130px auto;
+    justify-content: space-around;
+    width: 1200px;
+    height: 290px;
+    display: flex; 
+    gap: 50px;
+}
+
+  .secure{
+      display: flex;
+      text-align: center;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+  }
+      
+
+#secure{
+          margin-bottom: 15px;         
+      }
+
+#lock{
+          margin-bottom: 55px;
+          font-size: 24px;
+          font-weight: 500;
+}
+
+     
+#amet{
+          margin-bottom: 45px;
+          font-size: 20px;
+          line-height: 24.2px;
+          padding: 0px 0px;
+          color: #535353;
+      }
+
+#learn{
+          font-size: 16px;
+          font-weight: 600;
+          text-decoration: underline;
+          color: #000000;
+}
+
+.span{
+              font-style: italic;
+          }
+      
+
+
+.line{
+      width: 350px;
+      height: 2px;
+      background-color: #000000;
+      display: inline-block;
+      position: relative;
+      top: 40%;
+  }
+
+
+
+.featuresbtn{
+  position: absolute;
+  left: 44%;
+  bottom: 50px;
+  border: 1.5px solid #000000;
+  border-radius: 30px;
+  padding: 11px 28px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+}
+
+#see-full{
+      font-size: 22px;
+      font-weight: 500;
+      color: #000000;
+  }
+
+
+
+
+/* This is Payment Section */
+
+
+.payment-section{
+  width: 100%;
+  height: 700px;
+  background-color: #F8F8F8;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1.5px solid #000000;
+}
+
+.Buy-section{
+  display: flex;
+  flex-direction: column;
+  gap: 28px;
+}
+
+#buy{
+    margin-bottom: 5px;
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 500; 
+    text-align: center;
+     }
+
+
+.payment-selet{
+  width: 626px;
+  height: 100px;
+  background-color: #FFFF;
+  display: flex;
+  margin-top: 20px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #000000;
+  border-radius: 15px;
+}
+
+  #zelle{
+      padding-left: 15px;
+  }
+
+  #usa{
+      padding-right: 50px;
+  }
+
+  .sell-section{
+    display: flex;
+  flex-direction: column;
+  gap: 28px;
+  }
+
+
+#sell{
+    margin-bottom: 5px;
+      font-size: 30px;
+      margin-top: 10px;
+      font-weight: 500; 
+      text-align: center;
+}
+
+.line2{
+  width: 1.5px;
+  height: 700px;
+  background-color: #000000;
+}
+
+
+
+
+/* This is sign_up Section  */
+
+.sign-up{
+  width: 100%;
+  height: 600px;
+  background-color: #CFBAFF;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+ #sign-up{
+  font-size: 65px;
+  font-weight: 500;
+} 
+
+.button-section3{
+  position: absolute;
+  bottom: 50px;
+  color: white;
+  font-size: 32px;
+  font-weight: 500;
+  box-shadow: rgba(36, 35, 35, 0.25) 0px 54px 55px, rgba(37, 37, 37, 0.12) 0px -12px 30px, rgba(34, 33, 33, 0.12) 0px 4px 6px, rgba(44, 40, 40, 0.17) 0px 12px 13px, rgba(73, 73, 73, 0.09) 0px -3px 5px;
+  padding: 15px 45px;
+  gap: 10px;
+  border-radius: 30px;
+  border: none;
+  background-color: #000000;
+ 
+}
+
+.button-section3:hover{
+    bottom: 55px;
+    padding: 17px 50px;
+    cursor: pointer;
+    transition: 1s
+}
+
+
+
+
+/*  This is Footer Section */
+
+
+
+.Footer{
+  width: 100%;
+  justify-content: space-around;
+  background-color: #000000;
+  height: 510px;
+  display: flex;
+}
+
+#spacio{
+    color: white;
+    font-size: 50px;
+    width: 138px;
+    height: 34px;
+    margin-top: 70px;
+    margin-left: 100px;
+    cursor: pointer;
+  }
+
+
+.Bitcoin-section{
+  color: #FFFF;
+  margin-top: 85px;
+  margin-left: 14%;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  & h2{
+      font-size: 28px;
+      font-weight: 600;
+      margin-bottom: 20px;
+  }
+
+  & a{
+      color: #FFFF;
+      font-size: 20px;
+      transition: 0.3s ease-in;
+  }
+
+  & a:hover{
+      color: #d9ff00;
+  }
+
+}
+
+.aboutBox{
+  width: 984px;
+  height: 312px;
+  display: flex;
+  margin-right: 670px;
+}
+
+
+
+
+/*  This is copyright Section */
+.copyright{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #000000;
+  color: #FFFF;
+  border-top: 1.5px solid #fff;
+
+  & p{
+      padding: 35px 3%;
+      font-size: 13px;
+      font-weight: 500;
+      line-height: 15.73px;
+  }
+}
+
+
+
+
+
+
+
+This is Responsive Section
+
+
+
+
+
+@media (max-width: 1536px){ 
+
+  .Zappr-section{
+      left: 30%;
+  }
+  .head{
+    padding: 12px 30px;
+    display: flex;
+    align-items: center;
+   
+  }
+
+  
+#hello{
+    font-size: 25px;
+    font-weight: 600;
+    height: bold;
+    cursor: pointer ;
+    
+  }
+  
+  #hello:hover{
+      background-color: #ddd9d9;
+      padding: 8px;
+      border-radius: 15px;
+      color: #1c021f;
+  
+  }
+  .link-section{
+    display: none
+    
+  }
+  .login{
+    display: flex;
+    gap: 10px;
+   }
+   
+   
+   .Logo{
+     cursor: pointer;
+   }
+   
+   .png{
+     width: 30px;
+     height:30px;
+     cursor: pointer;
+   }
+   
+   .png:hover{
+       padding: 3px;
+       background-color: #dbd6d6;
+       border-radius: 25px;
+   }
+   .login{
+     padding: 6px 15px;
+     cursor: pointer;
+   }
+   
+   .button-section1{
+     border-radius: none;
+     border: none;
+     color: #000000;
+     font-size: 16px;
+     padding: 5px 3px; 
+     cursor: pointer;
+   }
+   
+   .button-section2{
+     border-radius: none;
+     border: none;
+     color: #FFFF;
+     background-color: #000000;
+     font-size: 16px;
+     padding: 5px;
+     cursor: pointer;
+   }
+   
+   .home-section{    
+    width: 100%;
+    height: 550px;
+    color: #000000;
+  
+  .find-offer{
+    position: absolute;
+    width: 300px;
+    height: 250px;
+   
+  }
+   #find{    
+      text-align: center;
+      font-size: 22px;
+      font-weight: 700;
+      padding: 10px;
+  }
+  
+  
+  .select-section{
+      width: 100px;
+      height: 30px;
+      padding-left: 1px;
+      border-radius: 3px;   
+
+  }
+  
+  .find-Box{
+      display:b;
+      padding: 0px 100px;
+      gap: 16px;
+      margin-top: 45px;
+  }
+  
+  #buy{
+      font-size: 14px;
+      font-weight: 400;
+      text-align: center;
+      padding-right: 5px;
+      padding-left: 10px;
+    }
+  
+    .im{
+      padding: 5px;
+      font-size: 12px;
+    }
+  
+  
+  
+  .how-much{
+    display: flex;
+    justify-content: flex-start;
+    gap: 28px;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 9.5%;
+  }
+  
+    .how-much1{
+      width: 260px;
+        height: 50px;
+        border-radius: 8px;
+        font-size: 16px;
+        border: none;
+        font-weight: 550;
+        outline: none;
+        cursor: pointer;
+  
+    }
+  
+    .how-much2{
+        width: 100px;
+        height: 50px;
+        border-radius: 5px;
+        border: none;
+        font-size: 16px;
+        font-weight: 550;
+        background-color: #00EBC7;
+        outline: none;
+        cursor: pointer;
+    }
+  
+  
+  .Zappr-section{
+    position: absolute;
+    border-radius: 30px;
+    border: 1.5px solid #FFFF;
+     padding: 11px 28px;
+    top: 440px;
+    left: 30%;
+    
+  }
+  
+  #zappr{
+       text-decoration: underline;
+       color: #FFFF;
+       font-weight: 22px;
+       font-weight: 500;
+    }
+  
+  
+  
+  
+  
+  
+
+
+
+  .Buy-Sell{
+    width: 100%;
+    height: 365px;
+    background-color: #FDE24F;
+    text-align: center;
+    border: none;
+  }
+  
+  #favorites{
+        font-size: 16px;
+        font-weight: 300;
+        padding-top: 70px;
+  
+    #span-selet{
+            font-style: italic;
+   }
+  }
+        
+  
+  .banner1{
+    margin-top: 55px;
+  }
+  
+  #banner1{
+        width: 110%;
+        height: 85%;
+  }
+  
+  
+  
+  
+  /* This is Features Section*/
+
+
+
+
+.Features{
+    width: 100%;
+    height: 90px;
+    color: #000000;
+    position: relative;
+    border-bottom: 1.6px solid #000000;
+    border-top: 1.5px solid #000000;
+  }
+  
+  #we-thing{
+        margin-top: 10px;
+        margin-left: 100px;
+        font-size: 16px;
+        font-weight: 500;
+        text-align: center;
+  }
+  
+  
+  .Features-section{
+      margin: 130px auto;
+      justify-content: space-around;
+      width: 1200px;
+      height: 290px;
+      display: flex; 
+      gap: 50px;
+  }
+  
+    .secure{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+        
+  
+  #secure{
+            margin-bottom: 15px;         
+        }
+  
+  #lock{
+            margin-bottom: 55px;
+            font-size: 24px;
+            font-weight: 500;
+  }
+  
+       
+  #amet{
+            margin-bottom: 45px;
+            font-size: 20px;
+            line-height: 24.2px;
+            padding: 0px 0px;
+            color: #535353;
+        }
+  
+  #learn{
+            font-size: 16px;
+            font-weight: 600;
+            text-decoration: underline;
+            color: #000000;
+  }
+  
+  .span{
+                font-style: italic;
+            }
+        
+  
+  
+  .line{
+        width: 350px;
+        height: 2px;
+        background-color: #000000;
+        display: inline-block;
+        position: relative;
+        top: 40%;
+    }
+  
+  
+  
+  .featuresbtn{
+    position: absolute;
+    left: 44%;
+    bottom: 50px;
+    border: 1.5px solid #000000;
+    border-radius: 30px;
+    padding: 11px 28px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px;
+  }
+  
+  #see-full{
+        font-size: 22px;
+        font-weight: 500;
+        color: #000000;
+    }
+  
+
+
+  
+  
+  
+
+  .featuresbtn{
+      position: absolute;
+      left: 43%;
+      bottom: 80px;
+      border: 1.5px solid #000000;
+      border-radius: 30px;
+      padding: 11px 28px;
+  
+      & a{
+          font-size: 22px;
+          font-weight: 500;
+          color: #000000;
+      }
+  }
+
+  .Footer{
+      width: 100%;
+      height: 510px;
+      display: flex;
+      justify-content: space-around;
+      background-color: #000000;
+  
+      & h1{
+          width: 137.51px;
+          height: 36.39px;
+          margin-top: 85px;
+          margin-left: 55px;
+  
+      }
+  }
+  
+  .Fbox{
+      color: #FFFF;
+      margin-top: 85px;
+      margin-left: 14%;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+  
+      & h2{
+          font-size: 28px;
+          font-weight: 600;
+          margin-bottom: 20px;
+      }
+  
+      & a{
+          color: #FFFF;
+          font-size: 20px;
+          transition: 0.3s ease-in;
+      }
+  
+      & a:hover{
+          color: #CFBAFF;
+      }
+  
+  }
+  
+  .about{
+      width: 984px;
+      height: 312px;
+      display: flex;
+      margin-right: 252px;
+  }
+
+}
+}
+
+/* ////////////////////////////////////// */
